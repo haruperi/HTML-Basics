@@ -185,7 +185,7 @@ img:hover{
 .zoneContainer {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-template-rows: 1fr;
     justify-items: end;
 }
@@ -295,34 +295,6 @@ img:hover{
 
 
 
-
-.siteLayout {
- 
-    border-radius:4px;
-    border:1px solid #bbb;
-    transition: all 0.3s linear;
-}
-
-.headerGreen {
-    background-color: green;
-    height: 5vh;
-    font-size: 1.5em;
-}
-
-.coverRed {
-    background-color: red;
-    height: 50vh;
-    text-align: center;
-    align-items: center;
-}
-
-.gridBlue {
-    background-color: blue;
-}
-
-.footerYellow {
-    background-color: yellow;
-}
 
 
 footer {
