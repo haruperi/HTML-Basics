@@ -4,138 +4,87 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-
-    <!-- Bootstrap CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- My CSS -->
-    <link href="assets/css/styles.css" rel="stylesheet">
-
     <title>HTML Basics!</title>
   </head>
   <body>
-    <div class="container">
-      
-      <header>
+
+    <header>
         <nav>
-          <ul>
-            <li><a href="index.html"></a> Home</li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="register.html">Register</a></li>
-  
-          </ul>
+            <ul>
+                <li><a href="grids.html">Grids</a></li>
+            </ul>
         </nav>
-      </header>
-      
+    </header>
+
+    <main>
+        <h1>HTML Basics</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, et. Quae quos odit tempora laboriosam! Quisquam, ex inventore perspiciatis, id explicabo, placeat unde aperiam amet excepturi iure porro omnis error.</p>
+
+        <p><strong>This is bold text</strong></p>
+
+        <p><em>This is italic text</em></p>
+
+        <h2>Ordered List</h2>
+
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2 </li>
+            <li>Item 3</li>
+        </ol>
+
+        <h2>Unordered List</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2 </li>
+            <li>Item 3</li>
+        </ul>
+
+        <hr>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Reprehenderit quasi consequuntur ea beatae, labore praesentium culpa, doloremque eos rerum voluptates dicta sunt esse. <br> Officia sed delectus vitae atque praesentium reprehenderit!</p>
+
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">This is a link</a>
+
+        <br><br>
+
+        <img src="https://static.pexels.com/photos/213399/pexels-photo-213399.jpeg" width="50%" alt="Fish in the sea">
+
+        <h2>Forms</h2>
+
+        <form action="logged-in.html" method="get">
+          <label for="username">Username</label>
+          <input type="text" name="username" title="Enter Username" id="username"> <br>
+          <label for="user-email">Email</label>
+          <input type="email" name="user-email" title="Enter Email" id="user-email" required> <br>
+          <label for="reg-date">Date</label>
+          <input type="date" name="reg-date" title="reg-date" id="reg-dte"> <br>
+          <label for="gender">Male</label>
+          <input type="radio" name="gender" title="Male" id="male" value="Male">
+          <label for="gender">Female</label>
+          <input type="radio" name="gender" title="Female" id="female" value="Female"> <br>
+          <label for="user-type">Bank Type</label>
+          <select name="user-type" title="user-type" id="user-type">
+            <option value="Current">Current</option>
+            <option value="Savings">Savings</option>
+            <option value="Credit">Credit</option>
+          </select> <br>
+          <label for="userpass">Password</label>
+          <input type="password" name="userpass" title="userpass" id="userpass" required> <br>
+          <input type="submit" value="Submit">
+          
+        </form>
+    </main>
+
+    <footer>
+        <p><center>Copyright 2021</center></p>
+    </footer>
     
-      <h1>HTML Basics!</h1>
-
-      <p id="webText">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-        Nihil repellendus, porro asperiores tempore a accusamus eos illum laboriosam quas commodi 
-        fugiat aut at! Id enim assumenda amet sed ducimus! Numquam.</p>
-      <p><strong>This is bold text</strong></p>
-      <p><em>This is italics</em></p>
-      <p> <ol class="fruiiitList">
-              <li>Mango</li>
-              <li>Apple</li>
-              <ul>
-                <li>Red</li>
-                <li>Green</li>
-              </ul>
-              <li>Oranges</li>
-          </ol>
-      </p>
-
-
-     
-     
-
-      <h3>Most Common Tags</h3>
-      <ul>
-        <li><pre> < html> </pre></li>
-        <li><pre> < head> </pre></li>
-        <li><pre> < title> </pre></li>
-        <li><pre> < body> </pre></li>
-        <li><pre> < h1 to h6> </pre></li>
-        <li><pre> < strong> </pre></li>
-        <li><pre> < em> </pre></li>
-        <li><pre> < img> </pre></li>
-        <li><pre> < a> </pre></li>
-      </ul>
-
-    <div id="gallery">
-        <img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg" alt="">
-        <img src="https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg" alt="">
-        <img src="https://static.pexels.com/photos/213399/pexels-photo-213399.jpeg" alt="">
-        <img src="https://static.pexels.com/photos/158471/ibis-bird-red-animals-158471.jpeg" alt="">
-        <img src="https://static.pexels.com/photos/133459/pexels-photo-133459.jpeg" alt="">
-        <img src="https://static.pexels.com/photos/50988/ape-berber-monkeys-mammal-affchen-50988.jpeg" alt="">
-    </div>
-
-    <h2>Robot</h2>
-    <div class="robots">
-      <div class="android"> 
-        <div class="head"> 
-          <div class="eyes"> 
-            <div class="left_eye"></div> 
-            <div class="right_eye"></div>
-          </div> 
-        </div> 
-        <div class="upper_body"> 
-          <div class="left_arm"></div> 
-          <div class="torso"></div> 
-          <div class="right_arm"></div> 
-        </div> 
-        <div class="lower_body"> 
-          <div class="left_leg"></div> 
-          <div class="right_leg"></div> 
-        </div> 
-      </div>
-    </div>
-
-
-
-      <h2>CSS Grids</h2>
-      <div class="zoneContainer">
-        <div class="zone green">🦊</div>
-        <div class="zone red">🐰</div>
-        <div class="zone blue">🐸</div>
-        <div class="zone yellow">🦁</div>
-        <div class="zone purple">🐯</div>
-        <div class="zone brown">🐭</div>
-        <div class="zone green">🦄</div>
-        <div class="zone red">🐲</div>
-        <div class="zone blue">🐷</div>
-        <div class="zone yellow">🐺</div>
-        <div class="zone purple">🐼</div>
-        <div class="zone brown">🐻</div>
-      </div>
-
-
-     
-
-
-
-      <footer>Copyright 2021</footer>
-
-     
-
-      
-
-
-
-    </div>
+    
 
     
-    <!-- My JS -->
-    <script src="assets/js/scripts.js"></script>
 
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    
   </body>
 </html>
