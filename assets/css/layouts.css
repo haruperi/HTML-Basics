@@ -54,3 +54,27 @@ body {
   }
 
 
+/* LAYOUT 1 */
+
+
+
+#layout1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows : 1fr 5fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    gap: 0.5rem;
+}
+
+#header1 {
+    height: 10vh;
+}
+
+#main1 {
+    height: 50vh;
+}
+
+#footer1 {
+    height: 10vh;
+}
+
