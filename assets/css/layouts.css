@@ -1,3 +1,5 @@
+/* General CSS */
+
 * {
     box-sizing: border-box;
 }
@@ -5,13 +7,50 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: whitesmoke;
+}
+
+/* Tab Specific CSS */
+
+[data-content] {
+    display: none;
+}
+
+.active[data-content]
+{
+    display: -ms-grid;
+    display: grid;
 }
 
 .layout {
-    height: 100vh;
+    height: 95vh;
     width: 100vh;
 }
 
 .container {
     background-color: #ddd;
 }
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+
+.tab {
+    cursor: pointer;
+    padding: o.5rem;
+}
+
+.tab.active {
+    background-color: #CCC;
+  }
+
+.tab:hover {
+    background-color: #AAA;
+  }
+
+
