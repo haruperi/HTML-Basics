@@ -8,11 +8,46 @@
     <title>Layouts</title>
 </head>
 <body>
-    <div class="layout" id="layout1">
-        <div class="container" id="layout1header">
+
+    <ul>
+        <li data-target="#layout1" class="tab" >Layout 1</li>
+        <li data-target="#layout2" class="tab" >Layout 2</li>
+        <li data-target="#layout3" class="tab" >Layout 3</li>
+        <li data-target="#layout4" class="tab" >Layout 4</li>
+        <li data-target="#layout5" class="tab" >Layout 5</li>
+        <li data-target="#layout6" class="tab" >Layout 6</li>
+    </ul>
+
+    <div class="layout">
+        <div id="layout1" data-content class="active">
+            <h1>Topnav, content and footer</h1>
+
+        </div>
+        <div id="layout2" data-content>
+            <h1>Sidenav and content:</h1>
 
         </div>
 
+        <div id="layout3" data-content>
+            <h1>Header, equal columns and footer:</h1>
+
+        </div>
+
+        <div id="layout4" data-content>
+            <h1>Header, unequal columns and footer:</h1>
+
+        </div>
+
+        <div id="layout5" data-content>
+            <h1>Layout 5</h1>
+
+        </div>
+
+        <div id="layout6" data-content>
+            <h1>Layout 6</h1>
+
+        </div>
+        
     </div>
     
 </body>
