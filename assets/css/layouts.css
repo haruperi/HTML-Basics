@@ -24,11 +24,12 @@ body {
 
 .layout {
     height: 95vh;
-    width: 100vh;
+   
 }
 
 .container {
-    background-color: #ddd;
+    background-color: gray;
+
 }
 
 .tabs {
@@ -55,26 +56,21 @@ body {
 
 
 /* LAYOUT 1 */
-
-
-
-#layout1 {
-    display: -ms-grid;
+/* #layout1 {
     display: grid;
-    -ms-grid-rows : 1fr 5fr 1fr;
-    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-rows: 10vh 75vh 10vh;
+    gap: 0.5rem;
+} */
+
+
+/* LAYOUT 2 */
+#layout2 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 100px;
     gap: 0.5rem;
 }
 
-#header1 {
-    height: 10vh;
-}
 
-#main1 {
-    height: 50vh;
-}
 
-#footer1 {
-    height: 10vh;
-}
 
