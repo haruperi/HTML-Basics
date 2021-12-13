@@ -1,0 +1,66 @@
+// Primary Colors
+$primary_1: #a2b9bc;
+$primary_2: #b2ad7f;
+$primary_3: #878f99;
+
+//Other defaults
+$siteFont: Helvetica, sans-serif;
+$fontColor: rgb(48, 48, 48);
+$h1Size: 48px;
+$h2Size: 42px;
+$h3Size: 36px;
+$h4Size: 30px;
+$h5Size: 24px;
+$h6Size: 20px;
+$fontSize: 18px;
+
+
+body {
+  font-family: $siteFont;
+  font-size: $fontSize;
+}
+
+
+.main-header {
+    background-color: $primary_1;
+}
+
+.menu-left {
+    background-color: $primary_2;
+  }
+  
+.menu-right {
+    background-color: $primary_3;
+  }
+
+
+  nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        display: inline-block;
+  
+        a {
+          display: block;
+          padding: 6px 12px;
+          text-decoration: none;
+        }
+      }
+    }
+    
+   
+  }
+
+  #list1 li:last-child {
+    color: blue;
+}
+
+#para {
+    text-align: center;
+    border: 5px solid grey;
+    background-color: rgba(57, 129, 255, 0.1)
+    
+}
