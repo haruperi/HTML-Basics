@@ -43,6 +43,7 @@ body {
 
   /* Photo Grid */
   .photo-grid {
+    margin-top: 10rem;
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -57,3 +58,41 @@ body {
     .card-wide {
         grid-column: span 2 /auto;
     }}
+
+
+      /* Animated Grid (explicit grid) */
+
+.animated-grid {
+    margin-top: 10rem;
+    height: 85vh;
+
+    display: grid;
+    gap: 1rem;
+
+    grid-template-areas: 
+    'a b c d'
+    'l ma ma e'
+    'k ma ma f'
+    'j i h g';
+
+    grid-template-rows: repeat(4, 25%);
+    grid-template-columns: 240px auto auto 240px;
+
+}
+
+.card-a {grid-area: a;}
+.card-b {grid-area: b;}
+.card-c {grid-area: c;}
+.card-d {grid-area: d;}
+
+.card-e {grid-area: e;}
+.card-f {grid-area: f;}
+.card-g {grid-area: g;}
+.card-h {grid-area: h;}
+
+.card-i {grid-area: i;}
+.card-j {grid-area: j;}
+.card-k {grid-area: k;}
+.card-l {grid-area: l;}
+.card-ma {grid-area: ma;}
+
